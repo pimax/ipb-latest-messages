@@ -38,6 +38,11 @@ class IpbLatestMessages
         return $this->config['title'];
     }
     
+    public function getNotFound()
+    {
+        return $this->config['no_message_text'];
+    }
+    
     public function getForumUrl()
     {
         return $this->config['forum_url'];

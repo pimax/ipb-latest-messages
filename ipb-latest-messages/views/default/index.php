@@ -13,7 +13,7 @@
                 <?php endforeach;?>
             </ul>
         <?php else:?>
-            Новых тем нет.
+            <?php echo $this->getNotFound()?>
         <?php endif;?>
         
     </div>
